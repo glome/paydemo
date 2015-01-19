@@ -19,6 +19,9 @@ to your taste.
 
 Install node, then:
 
+    npm install -g bower
+    npm install -g grunt
+    npm install -g grunt-cli
     npm install
     bower install
     grunt build

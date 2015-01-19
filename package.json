@@ -2,6 +2,10 @@
   "name": "paydemo",
   "version": "0.0.0",
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:glome/paydemo.git"
+  },
   "devDependencies": {
     "connect-modrewrite": "^0.7.9",
     "grunt": "^0.4.1",
