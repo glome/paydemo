@@ -6,9 +6,8 @@ First change pointing url to correct one.
 
 in /app/views/main.html
 
-    ng-href="http://www.google.fi"
+    ng-href="http://www.google.fi" -> ng-href="glome-server-url-what-ever"
 
-to your taste.
 
 "Callback" URL is:
 
