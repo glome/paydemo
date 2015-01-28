@@ -35,4 +35,12 @@ angular
       //   console.log('Its working');
       //   $locationProvider.html5Mode(true);
       // }
+  })
+  .run(function ($rootScope) {
+    /* change these if needed */
+    $rootScope.demotitle = 'Glome Paywall Demo';
+    $rootScope.gbs = 'https://gbs.local';
+    $rootScope.payment_url = $rootScope.gbs + '/paywall/2-glome-paywall-demo';
+    /* ^^^^^^^^^^^^ */
+    $rootScope.vault_base = $rootScope.gbs + '/v';
   });

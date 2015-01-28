@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <base href="/">
-    <title>Glome-Paywall</title>
-    <meta name="description" content="">
+    <title>Glome Paywall Demo</title>
+    <meta name="description" content="Glome Paywall Demo">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
@@ -26,13 +26,13 @@
         <ul class="nav nav-pills pull-right">
           <li class="active"><a ng-href="/#/">DemoHome</a></li>
         </ul>
-        <h3 class="text-muted">Glome Paywall-demo</h3>
+        <h3 class="text-muted">{{demotitle}}</h3>
       </div>
 
       <div ng-view=""></div>
 
       <div class="footer">
-        <p>Glome demo</p>
+        <p>{{demotitle}}</p>
       </div>
     </div>
 
@@ -83,6 +83,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/thankyou.js"></script>
         <!-- endbuild -->
 </body>
 </html>

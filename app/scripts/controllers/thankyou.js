@@ -8,10 +8,6 @@
  * Controller of the paydemoApp
  */
 angular.module('paydemoApp')
-  .controller('MainCtrl', function ($rootScope, $scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ThankYouCtrl', function ($rootScope, $scope, $routeParams) {
+    $scope.vault_url = $rootScope.vault_base + '/' + $routeParams.v;
   });
